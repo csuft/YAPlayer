@@ -1,0 +1,6 @@
+[submodule "YARender"]
+	path = YARender
+	url = https://github.com/csuft/YARender.git
+[submodule "YAMedia"]
+	path = YAMedia
+	url = https://github.com/csuft/YAMedia.git

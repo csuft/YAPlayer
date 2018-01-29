@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>videoCanvasTool</class>
+ <widget class="QWidget" name="videoCanvasTool">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>751</width>
+    <height>60</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QToolButton" name="playBtn">
+     <property name="toolTip">
+      <string>Play/Stop</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../resources/insta360studio.qrc">
+       <normaloff>:/player/pause</normaloff>:/player/pause</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QSlider" name="progressSlider">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="progressTime">
+     <property name="text">
+      <string>00:00/00:00</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="fullscreenBtn">
+     <property name="toolTip">
+      <string>Fullscreen</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../resources/insta360studio.qrc">
+       <normaloff>:/player/fullscreen</normaloff>:/player/fullscreen</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="voiceBtn">
+     <property name="toolTip">
+      <string>Volume Switch</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../resources/insta360studio.qrc">
+       <normaloff>:/player/volume_enabled</normaloff>:/player/volume_enabled</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="previewWindowBtn">
+     <property name="toolTip">
+      <string>Preview Window</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../resources/insta360studio.qrc">
+       <normaloff>:/player/preview_windows_disabled</normaloff>:/player/preview_windows_disabled</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="projectionBtn">
+     <property name="toolTip">
+      <string>View Projection</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../resources/insta360studio.qrc">
+       <normaloff>:/player/fisheye_mode_disabled</normaloff>:/player/fisheye_mode_disabled</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="snapshotBtn">
+     <property name="toolTip">
+      <string>Take Screenshot</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../resources/insta360studio.qrc">
+       <normaloff>:/player/snapshot_disabled</normaloff>:/player/snapshot_disabled</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="editBtn">
+     <property name="toolTip">
+      <string>Edit With Studio</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../resources/insta360studio.qrc">
+       <normaloff>:/player/edit_disabled</normaloff>:/player/edit_disabled</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="deleteBtn">
+     <property name="toolTip">
+      <string>Delete File</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../resources/insta360studio.qrc">
+       <normaloff>:/player/delete_disabled</normaloff>:/player/delete_disabled</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="moreBtn">
+     <property name="toolTip">
+      <string>More Settings</string>
+     </property>
+     <property name="text">
+      <string>...</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../resources/insta360studio.qrc">
+       <normaloff>:/player/setting_disabled</normaloff>:/player/setting_disabled</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>36</width>
+       <height>36</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../resources/insta360studio.qrc"/>
+ </resources>
+ <connections/>
+</ui>
